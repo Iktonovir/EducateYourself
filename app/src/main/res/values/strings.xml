@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Activity_main.xml strings -->
+    <string name="app_name">Educate Yourself Quiz</string>
+
+    <string name="opening_sentence">Educate yourself on SIX fundamentals about life.</string>
+
+    <string name="name_field">Enter your name</string>
+
+    <string name="question_one">I. Life expectancy in the 20th century has been dramatically extended thanks to:</string>
+
+    <string name="thoughts_button">Thoughts and prayers.</string>
+
+    <string name="organic_button">Organic food.</string>
+
+    <string name="vaccine_button">Vaccines, antibiotics, and sanitation.</string>
+
+    <string name="question_two">II. There is a hidden cure for cancer and it is available to billionaires only:</string>
+
+    <string name="steve_death_button">Yes, and Steve Jobs simply chose death.</string>
+
+    <string name="no_button">No.</string>
+
+    <string name="question_three">III. You can vaccinate your child against:</string>
+
+    <string name="hepc_button">Hepatitis C.</string>
+
+    <string name="hepab_button">Hepatitis A and B.</string>
+
+    <string name="anemia_button">Sickle-Cell Anemia.</string>
+
+    <string name="question_four">IV. \'I don\'t think anything that is natural can be bad for you\'.</string>
+
+    <string name="meteor_button">True! A giant meteor hitting the Earth is a natural and good phenomenon.</string>
+
+    <string name="paltrow_button">False! Also Gwyneth Paltrow should focus on her acting career.</string>
+
+    <string name="question_five">V. You can seroconvert to HIV through:</string>
+
+    <string name="kissing_button">Kissing, touching, sharing cutlery.</string>
+
+    <string name="sex_button">Vaginal, anal, oral sex.</string>
+
+    <string name="food_button">Eating HIV-infected food.</string>
+
+    <string name="question_six">VI. What is CRISPR?</string>
+
+    <string name="crispr_button">A gene-editing tool poised to revolutionize medicine and life as we know it.</string>
+
+    <string name="deadly_button">A newly discovered deadly disease.</string>
+
+    <string name="star_button">The largest star in our cosmic neighborhood.</string>
+
+    <string name="submit_answers">submit answers</string>
+
+    <string name="reset">Reset</string>
+
+    <!-- MainActivity.java strings -->
+    <string name="your_score_is">, your score is: </string>
+
+    <string name="excellent"> \nout of 6, Excellent!</string>
+
+    <string name="very_good"> \nout of 6, Very Good!</string>
+
+    <string name="good"> \nout of 6, Good!</string>
+
+    <string name="not_bad"> \nout of 6, Not Bad!</string>
+
+    <string name="should_be_better"> \nout of 6, Should be Better!</string>
+
+    <string name="educate_yourself"> \nout of 6, Educate Yourself!</string>
+
+    <string name="rethink"> \nout of 6, Rethink the Purpose of existence!</string>
+
+</resources>

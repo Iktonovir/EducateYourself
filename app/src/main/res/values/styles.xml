@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+    </style>
+
+    <style name="main_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/main_layout_color</item>
+    </style>
+
+    <style name="image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="opening_sentence">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/opening_sentence_textColor</item>
+        <item name="android:padding">@dimen/opening_sentence_padding</item>
+        <item name="android:textSize">@dimen/opening_sentence_textSize</item>
+        <item name="android:background">@color/opening_sentence_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="name_field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/name_field_layoutMarginLeft</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="box_one">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/box_one_layout_margin</item>
+        <item name="android:padding">@dimen/box_one_padding</item>
+        <item name="android:background">@color/box_one_background</item>
+    </style>
+
+    <style name="box_one_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/box_one_text_layout_margin</item>
+        <item name="android:padding">@dimen/box_one_text_padding</item>
+        <item name="android:textSize">@dimen/box_one_text_textSize</item>
+        <item name="android:background">@color/opening_sentence_background</item>
+    </style>
+
+    <style name="R1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/R1_padding</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/button_textColor</item>
+        <item name="android:paddingLeft">@dimen/button_paddingLeft</item>
+        <item name="android:textSize">@dimen/button_textSize</item>
+        <item name="android:layout_marginLeft">@dimen/button_layout_marginLeft</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/relative_layout_paddingBottom</item>
+
+    </style>
+
+    <style name="button_get_score">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:padding">@dimen/button_get_score_padding</item>
+        <item name="android:layout_margin">@dimen/button_get_score_layout_margin</item>
+
+    </style>
+
+    <style name="button_reset_score">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:padding">@dimen/button_reset_score_padding</item>
+        <item name="android:layout_margin">@dimen/button_reset_score_layout_margin</item>
+
+    </style>
+</resources>

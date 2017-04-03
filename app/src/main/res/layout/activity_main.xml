@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.educateyourselfquiz.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/main_layout"
+        android:id="@+id/activity_main"
+        tools:context="com.example.user.educateyourselfquiz.MainActivity">
+
+
+            <ImageView
+                style="@style/image_view"
+                android:src="@drawable/halftruth" />
+
+            <TextView
+                style="@style/opening_sentence"
+                android:text="@string/opening_sentence"/>
+
+        <EditText
+            style="@style/name_field"
+            android:id="@+id/name_field"
+            android:hint="@string/name_field" />
+
+        <LinearLayout
+            style="@style/box_one">
+
+        <TextView
+            style="@style/box_one_text"
+            android:text="@string/question_one" />
+
+        <RadioGroup
+            style="@style/R1">
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/thoughts_button"
+            android:text="@string/thoughts_button" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/organic_button"
+            android:text="@string/organic_button" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/vaccine_button"
+            android:text="@string/vaccine_button" />
+
+        </RadioGroup>
+
+        </LinearLayout>
+
+    <LinearLayout
+        style="@style/box_one">
+
+        <TextView
+            style="@style/box_one_text"
+            android:text="@string/question_two" />
+
+        <RadioGroup
+            style="@style/R1">
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/steve_death_button"
+            android:text="@string/steve_death_button"
+            android:paddingTop="@dimen/radio_button_paddingTop" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/no_button"
+            android:text="@string/no_button" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+        <LinearLayout
+            style="@style/box_one">
+
+        <TextView
+            style="@style/box_one_text"
+            android:text="@string/question_three" />
+
+        <RadioGroup
+            style="@style/R1">
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/hepc_button"
+            android:text="@string/hepc_button" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/hepab_button"
+            android:text="@string/hepab_button" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/anemia_button"
+            android:text="@string/anemia_button" />
+
+        </RadioGroup>
+        </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/box_one">
+
+        <TextView
+            style="@style/box_one_text"
+            android:text="@string/question_four" />
+
+        <RadioGroup
+            style="@style/R1">
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/meteor_button"
+            android:text="@string/meteor_button"
+            android:paddingTop="@dimen/radio_button_paddingTopM"
+            android:paddingBottom="@dimen/radio_button_paddingBottomM" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/paltrow_button"
+            android:text="@string/paltrow_button" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/box_one">
+
+        <TextView
+            style="@style/box_one_text"
+            android:text="@string/question_five" />
+
+        <RadioGroup
+            style="@style/R1">
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/kissing_button"
+            android:text="@string/kissing_button" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/sex_button"
+            android:text="@string/sex_button" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/food_button"
+            android:text="@string/food_button" />
+
+        </RadioGroup>
+
+        </LinearLayout>
+
+    <LinearLayout
+        style="@style/box_one">
+
+        <TextView
+            style="@style/box_one_text"
+            android:text="@string/question_six" />
+
+        <RadioGroup
+            style="@style/R1">
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/crispr_button"
+            android:text="@string/crispr_button"
+            android:paddingTop="@dimen/radio_button_paddingTopC"
+            android:paddingBottom="@dimen/radio_button_paddingBottomC" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/deadly_button"
+            android:text="@string/deadly_button" />
+
+        <RadioButton
+            style="@style/button"
+            android:id="@+id/star_button"
+            android:text="@string/star_button"
+            android:paddingTop="@dimen/radio_button_paddingTopS" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+        <RelativeLayout
+            style="@style/relative_layout">
+
+        <Button
+            style="@style/button_get_score"
+            android:onClick="getScore"
+            android:text="@string/submit_answers" />
+
+            <Button
+                style="@style/button_reset_score"
+                android:onClick="resetScore"
+                android:text="@string/reset" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

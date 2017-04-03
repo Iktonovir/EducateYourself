@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Find in Styles:Opening-Sentence -->
+    <dimen name="opening_sentence_padding">15dp</dimen>
+    <dimen name="opening_sentence_textSize">20sp</dimen>
+
+    <!-- Find in Styles:Name-Field -->
+    <dimen name="name_field_layoutMarginLeft">16dp</dimen>
+
+    <!-- Find in Styles:Box-One -->
+    <dimen name="box_one_layout_margin">10dp</dimen>
+    <dimen name="box_one_padding">8dp</dimen>
+
+    <!-- Find in Styles:Box-One-Text -->
+    <dimen name="box_one_text_layout_margin">2dp</dimen>
+    <dimen name="box_one_text_padding">5dp</dimen>
+    <dimen name="box_one_text_textSize">18sp</dimen>
+
+    <!-- Find in Styles:R1 -->
+    <dimen name="R1_padding">5dp</dimen>
+
+    <!-- Find in Styles:button -->
+    <dimen name="button_paddingLeft">15dp</dimen>
+    <dimen name="button_textSize">16sp</dimen>
+    <dimen name="button_layout_marginLeft">16dp</dimen>
+
+    <!-- Find in Styles:Relative-Layout -->
+    <dimen name="relative_layout_paddingBottom">10dp</dimen>
+
+    <!-- Find in Styles:Button-Get-Score -->
+    <dimen name="button_get_score_padding">20dp</dimen>
+    <dimen name="button_get_score_layout_margin">20dp</dimen>
+
+    <!-- Find in Styles:Button-Reset-Score -->
+    <dimen name="button_reset_score_padding">15dp</dimen>
+    <dimen name="button_reset_score_layout_margin">50dp</dimen>
+
+    <!-- Find in Activity-Main:RadioButton -->
+    <dimen name="radio_button_paddingTop">3dp</dimen>
+
+    <!-- Find in Activity-Main:RadioButton-Meteor-->
+    <dimen name="radio_button_paddingTopM">5dp</dimen>
+    <dimen name="radio_button_paddingBottomM">8dp</dimen>
+
+    <!-- Find in Activity-Main:RadioButton-crispr-->
+    <dimen name="radio_button_paddingTopC">5dp</dimen>
+    <dimen name="radio_button_paddingBottomC">8dp</dimen>
+
+    <!-- Find in Activity-Main:RadioButton-Star-->
+    <dimen name="radio_button_paddingTopS">5dp</dimen>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#cddc39</color>
+    <color name="colorPrimaryDark">#afb42b</color>
+    <color name="colorAccent">#5d4037</color>
+    <color name="colorButtonNormal">#cddc39</color>
+
+    <!-- Find in Styles:Main-Layout -->
+    <color name="main_layout_color">#FFFFF0</color>
+
+    <!-- Find in Styles:Opening-Sentence -->
+    <color name="opening_sentence_textColor">#212121</color>
+    <color name="opening_sentence_background">#dce775</color>
+
+    <!-- Find in Styles:Box-One -->
+    <color name="box_one_background">#1b5e20</color>
+
+    <!-- Find in Styles:Button -->
+    <color name="button_textColor">#FFFFFF</color>
+</resources>
