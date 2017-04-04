@@ -39,6 +39,16 @@
         <item name="android:inputType">textCapWords</item>
     </style>
 
+    <style name="open_question_input">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/button_textColor</item>
+        <item name="android:textColorHint">@color/button_textColor</item>
+        <item name="android:layout_marginLeft">@dimen/open_q_layout_marginLeft</item>
+    </style>
+
     <style name="box_one">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

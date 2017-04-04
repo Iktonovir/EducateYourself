@@ -29,6 +29,20 @@
         <LinearLayout
             style="@style/box_one">
 
+            <TextView
+                style="@style/box_one_text"
+                android:text="@string/open_question"/>
+
+            <EditText
+                style="@style/open_question_input"
+                android:id="@+id/autism"
+                android:hint="@string/hint_open_question" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/box_one">
+
         <TextView
             style="@style/box_one_text"
             android:text="@string/question_one" />
@@ -192,8 +206,34 @@
             android:paddingTop="@dimen/radio_button_paddingTopS" />
 
         </RadioGroup>
-
     </LinearLayout>
+
+        <LinearLayout
+            style="@style/box_one">
+
+            <TextView
+                style="@style/box_one_text"
+                android:text="@string/question_last"/>
+
+            <CheckBox
+                style="@style/button"
+                android:id="@+id/pneumonia"
+                android:text="@string/pneumonia"
+                android:layout_marginLeft="@dimen/check_box_layout_marginLeft"/>
+
+            <CheckBox
+                style="@style/button"
+                android:id="@+id/hpv"
+                android:text="@string/hpv"
+                android:layout_marginLeft="@dimen/check_box_layout_marginLeft" />
+
+            <CheckBox
+                style="@style/button"
+                android:id="@+id/syphilis"
+                android:text="@string/syphilis"
+                android:layout_marginLeft="@dimen/check_box_layout_marginLeft" />
+
+        </LinearLayout>
 
         <RelativeLayout
             style="@style/relative_layout">

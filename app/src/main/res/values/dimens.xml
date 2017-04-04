@@ -21,6 +21,9 @@
     <dimen name="box_one_text_padding">5dp</dimen>
     <dimen name="box_one_text_textSize">18sp</dimen>
 
+    <!-- Find in Styles:Open-Question-Input -->
+    <dimen name="open_q_layout_marginLeft">65dp</dimen>
+
     <!-- Find in Styles:R1 -->
     <dimen name="R1_padding">5dp</dimen>
 
@@ -54,4 +57,6 @@
     <!-- Find in Activity-Main:RadioButton-Star-->
     <dimen name="radio_button_paddingTopS">5dp</dimen>
 
+    <!-- Find in Activity-Main:CheckBox-->
+    <dimen name="check_box_layout_marginLeft">23dp</dimen>
 </resources>
