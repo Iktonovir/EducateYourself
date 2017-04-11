@@ -9,7 +9,7 @@
 
     <string name="open_question">I. Do vaccines cause Autism?</string>
 
-    <string name="hint_open_question">Yes / No</string>
+    <string name="hint_open_question">Enter Yes / No</string>
 
     <string name="question_one">II. Life expectancy in the 20th century has been dramatically extended thanks to:</string>
 
@@ -55,7 +55,7 @@
 
     <string name="star_button">The largest star in our cosmic neighborhood.</string>
 
-    <string name="question_last">VIII. Antibiotics can cure:</string>
+    <string name="question_last">VIII. Antibiotics can cure \n(select two):</string>
 
     <string name="pneumonia">Pneumonia</string>
 

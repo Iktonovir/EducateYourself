@@ -50,22 +50,22 @@
     </style>
 
     <style name="box_one">
+        <item name="android:background">@drawable/layout_bg</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_margin">@dimen/box_one_layout_margin</item>
         <item name="android:padding">@dimen/box_one_padding</item>
-        <item name="android:background">@color/box_one_background</item>
     </style>
 
     <style name="box_one_text">
+        <item name="android:background">@drawable/layout_b</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_margin">@dimen/box_one_text_layout_margin</item>
         <item name="android:padding">@dimen/box_one_text_padding</item>
         <item name="android:textSize">@dimen/box_one_text_textSize</item>
-        <item name="android:background">@color/opening_sentence_background</item>
     </style>
 
     <style name="R1">
