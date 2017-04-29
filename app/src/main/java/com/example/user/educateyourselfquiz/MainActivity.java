@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score = 0;
-    int scoreQ1, scoreQ2, scoreQ3, scoreQ4, scoreQ5, scoreQ6, scoreQ7, scoreQ8 = 0;
+    int score;
+    int scoreQ1, scoreQ2, scoreQ3, scoreQ4, scoreQ5, scoreQ6, scoreQ7, scoreQ8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox syphilisCheckBox = (CheckBox) findViewById(R.id.syphilis);
         boolean hasSyphilis = syphilisCheckBox.isChecked();
 
-        if (autism.equals(getString(R.string.Q1_no)) || autism.equals(getString(R.string.Q1_Big_no))){
+        if (autism.equals(getString(R.string.Q1_no)) || autism.equals(getString(R.string.Q1_Big_no))) {
             scoreQ1 = 1;
 
         } else {
@@ -143,13 +143,13 @@ public class MainActivity extends AppCompatActivity {
             scoreQ7 = 1;
         }
 
-        if (hasPneumonia && hasSyphilis){
+        if (hasPneumonia && hasSyphilis) {
             scoreQ8 = 2;
 
-        } else if (hasPneumonia){
+        } else if (hasPneumonia) {
             scoreQ8 = 1;
 
-        } else if (hasSyphilis){
+        } else if (hasSyphilis) {
             scoreQ8 = 1;
 
         } else {
@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
                     + " " + score + getString(R.string.google_questions), Toast.LENGTH_LONG).show();
         }
 
-        if (score == 0 )
+        if (score == 0)
 
         {
             Toast.makeText(this, name + getString(R.string.your_score_is)
@@ -232,8 +232,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the reset button is clicked.
      */
-    public void resetScore(View view)
-    {
+    public void resetScore(View view) {
         score = 0;
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

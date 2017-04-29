@@ -1,6 +1,7 @@
 <resources>
 
     <!-- Activity_main.xml strings -->
+
     <string name="app_name">Educate Yourself Quiz</string>
 
     <string name="opening_sentence">Educate yourself on EIGHT fundamentals about life</string>
@@ -68,6 +69,7 @@
     <string name="reset">Reset</string>
 
     <!-- MainActivity.java strings -->
+
     <string name="Q1_no">no</string>
 
     <string name="Q1_Big_no">No</string>

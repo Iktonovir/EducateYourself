@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.user.educateyourselfquiz.MainActivity">
+    tools:context="com.example.user.educateyourselfquiz.MainActivity"
+    style="@style/scroll_view">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         style="@style/main_layout"
-        android:id="@+id/activity_main"
-        tools:context="com.example.user.educateyourselfquiz.MainActivity">
-
+        android:id="@+id/activity_main">
 
             <ImageView
                 style="@style/image_view"
